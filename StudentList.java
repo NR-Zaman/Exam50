@@ -56,8 +56,10 @@ public class StudentList
 		else if(args[0].contains("?")) 
 		{
 			System.out.println("Loading data ...");			
-			try {
-			BufferedReader s = new BufferedReader(
+			try 
+			{
+			BufferedReader s = new BufferedReader
+			(
 					new InputStreamReader(
 							new FileInputStream("students.txt"))); 
 			String r = s.readLine();
