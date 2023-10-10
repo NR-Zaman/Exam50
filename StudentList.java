@@ -7,7 +7,8 @@ public class StudentList
 	 {
 
 //		Check arguments
-		if(args[0].equals("a")) {
+		if(args[0].equals("a"))
+		 {
 			System.out.println("Loading data ...");			
 			try {
 			BufferedReader s = new BufferedReader(
@@ -35,7 +36,8 @@ public class StudentList
 			} catch (Exception e){} 
 			System.out.println("Data Loaded.");			
 		}
-		else if(args[0].contains("+")){
+		else if(args[0].contains("+"))
+		{
 			System.out.println("Loading data ...");			
 			try {
 			BufferedWriter s = new BufferedWriter(
